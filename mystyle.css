@@ -1,0 +1,365 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #34252F;
+    display: flow-root;
+}
+
+header{
+    display: flex;
+    
+    
+    margin-top: 30px;
+    margin-left: 30px;
+}
+main{
+    
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    
+    margin-left: 50px;
+    justify-content: space-around;
+
+    
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+aside{
+    
+   margin-left: -35px; 
+    
+}
+article{
+    
+    
+    order: 1
+
+    
+    
+}
+
+.videocontainer{
+    
+    height: 100vh;
+    width: 100dvw;
+    background-color: hwb(148 32% 40%);;
+    order: -1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#videoo{
+
+    display: block;
+    max-width: 100%;
+    height: 280px;
+    
+
+}
+
+#videodescri{
+
+
+    
+    margin: 100px;
+    width: 50vh;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    
+
+    
+}
+
+
+
+
+#portrait{
+    display: block;
+    max-width: 100%;
+    width: 350px;
+    border-radius: 5px;
+    border: solid  hwb(148 32% 40%);
+    background-color: #55364b;
+    
+    
+}
+
+
+
+.button-page1{
+
+         
+
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:  #519872;
+    border: solid 5px;
+    border-color: #e4f1d4;
+    transition: transform 0.3s ease 0s;
+    
+    
+
+
+}
+
+.button-page1:hover{
+    transform: translateY(-10px);
+    background-color: #e4f1d4;
+    
+}
+
+footer{
+    display: flex;
+    align-items: end;
+    padding: 30px;
+    background-color: #BEC5AD;
+    width: 100%;
+    
+}
+
+#header-bg-color2{
+
+    height: 50px;
+    width: 50%;
+    transition: hd2tr linear forwards;
+    animation-timeline: view();
+    animation-range: exit ;
+
+
+}
+
+@keyframes hd2tr{
+
+    to{
+        opacity: 0;
+        transform: translateY(-10px);
+
+    }
+
+}
+
+
+.button-page2{
+
+   
+    width: 100px;
+    height: 50px;
+    background-color: #34252F;
+    border: #34252F;
+    
+    transition: transform 0.3s ease 0s;
+
+}
+
+
+
+#Homepagep2{
+
+        
+    position: absolute;
+    
+
+    right: 170px;
+    top: 10px;
+
+
+}
+
+#leterp2{
+
+    position: absolute;
+    right: 30px;
+    top: 10px;
+
+}
+
+.button-page2:hover{
+    transform: translateY(-10px);
+    background-color: #638a34;
+    border-radius: 5px;
+    
+}
+
+
+
+
+.buto{
+    font-size: 16px;
+    
+}
+
+
+
+.myjourney{
+    
+        
+        animation: lostjnr linear forwards;
+        animation-timeline: view(10px);
+        animation-range: exit;
+    background-color: #519872 ;
+        width: 70%;
+        height: auto;
+
+        margin-left: 15%;
+        margin-top: 10%;
+        padding: 30px;
+        border-radius: 30px;
+        margin-top: 50px;
+
+}
+
+@keyframes lostjnr {
+    to {
+        opacity: 0;
+    }
+}
+
+#th1{
+
+    
+    margin-left: 30px;
+    
+}
+
+.ingenre2{
+    background-color: #519872;
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 5px;
+   
+
+
+    
+}
+
+
+
+
+#reason-1{
+    animation: reason-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+    transform: rotateZ(60deg);
+    opacity: 0;
+
+    margin-top: 70px;
+    position: relative;
+    margin-left: 120px;
+    
+
+
+}
+#reason-2{
+
+    animation: reason-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+    transform: rotateZ(-60deg);
+    opacity: 0;
+
+    position: relative;
+    float: right;
+    top: 30px;
+    margin-right: 120px;
+
+
+    
+}
+#reason-3{
+
+    animation: reason-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+    transform: rotateZ(60deg);
+    opacity: 0.5;
+
+    position: relative;
+    float: left;
+    top: 280px;
+    margin-left: 120px;
+}
+#reason-4{
+
+    animation: reason-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+    transform: rotateZ(-60deg);
+    opacity: 0.5;
+
+    position: relative;
+    float: right;
+    margin-top: 330px;
+    margin-right: 120px;
+    
+}
+#reason-5{
+
+    animation: reason-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+    transform: rotateZ(60deg);
+    opacity: 0.5;
+
+    position: relative;
+    float: left;
+    margin-top: 530px;
+    margin-left: 120px;
+    
+}
+
+
+@keyframes reason-in{
+    to{
+        transform: rotateZ(0deg);
+        opacity: 1;
+        
+    }
+}
+
+#futuremainparapraph{
+    background-color: #519872;
+    width: 50%;
+    height: auto;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 5px;
+    position: relative;
+    top: 150px;
+    left: 25%;
+    right: 25%;
+    margin-bottom: 300px;
+
+}
+
+#footer2{
+    background-color: #BEC5AD;
+    width: 100%;
+    padding: 30px;
+}
+
+#Sidee{
+    margin-top: 30px;
+    margin-left: 30px;
+}
